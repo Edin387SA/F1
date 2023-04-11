@@ -1,0 +1,15 @@
+# include <iostream>
+using namespace std;
+
+int main(){
+int x;
+cout <<"unesi broj: "<< endl;
+cin >> x;
+
+if(x<3){
+cout << x-1 << endl;
+} else{
+	cout << x+3 << endl;
+}
+	return 0;
+}

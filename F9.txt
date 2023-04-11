@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+class bankrac
+{
+
+	float a,b,c;
+	public:
+	bankrac(){
+		a=100;
+		b=3/100;
+		c=12;
+	}
+	bankrac(float strac, float kamt, float godina){
+		a=strac;
+		b=kamt;
+		c=godina;
+		
+		}
+		~bankrac(){}
+		float iznos(){
+			float I;
+			I=a*b*c;
+			return I;
+		}
+	};
+	
+	
+int main(){
+	bankrac prvi;
+	cout<<"iznos prvog racuna: "<< prvi.iznos()<< endl;
+	float s, d, e;
+	cout<<"unesite kolicinu novca, vrijeme u godinama i kamatnu stopu: "<<endl;
+	cin>>s>>d>>e;
+	bankrac drugi(s,d,e);
+	cout<<"racunica ti je: "<< drugi.iznos()<<endl;	
+	
+	return 0;
+}
+	
+	return 0;
+}

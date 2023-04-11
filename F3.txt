@@ -1,0 +1,17 @@
+# include <iostream>
+using namespace std;
+
+int main(){
+int x, y;
+cout <<"unesi prvi broj: "<< endl;
+cin >> x;
+cout <<"unesi drugi broj: "<< endl;
+cin >> y;
+
+if(x-y<2){
+cout << x+y << endl;
+} else{
+	cout << x-y << endl;
+}
+	return 0;
+}

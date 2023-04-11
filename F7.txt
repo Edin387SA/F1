@@ -1,0 +1,24 @@
+#include <iostream>	
+using namespace std;
+
+
+int dvaBroja(int x, int y){
+	cout << "zbir dva broja je: : "<<x+y<<endl;
+	cout << "razlika dva broja je: "<<x-y<<endl;
+	cout << "umnozak dva broja je: : "<<x*y<<endl;
+	cout << "razdjelak dva broja je: : "<<x/y<<endl;
+}
+int main(){
+	int x, y;
+	cout <<"unesite prvi broj: "<< endl;
+	cin >>x;
+	cout <<"unesite drugi broj: "<< endl;
+	cin >>y;
+	dvaBroja(x,y);
+	return 0;
+}
+	}
+
+	
+	return 0;
+}

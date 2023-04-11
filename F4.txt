@@ -1,0 +1,15 @@
+# include <iostream>
+using namespace std;
+
+int main(){
+int x;
+cout <<"unesi prvi broj: "<< endl;
+cin >> x;
+
+if(x%2 == 0){
+cout << "broj paran! "<< endl;
+} else{
+	cout << "broj je neparan! "<< endl;
+}
+	return 0;
+}

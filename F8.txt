@@ -1,0 +1,39 @@
+# include <iostream>
+using namespace std;
+
+
+class kalkulator
+{
+public: 
+int a,b;
+
+zbroj(){
+	return a + b ;
+}
+razlika(){
+	return a - b ;
+}
+umnozak(){
+	return a * b ;
+}
+kolicnik(){
+	return a / b ;
+}
+};
+int main (){
+	kalkulator k;
+	cout << "unesite prvi broj: ";
+	cin >>k.a;
+	cout <<"unesite drugi broj: ";
+	cin >>k.b;
+	cout<< " zbir unesenih brojeva: " <<k.a<< " i " <<k.b<< " je "<<k.zbroj()<<endl;
+	cout<< " razlika unesenih brojeva: " <<k.a<< " i " <<k.b<< " je "<<k.razlika()<<endl;
+	cout<< " umnozak unesenih brojeva: " <<k.a<< " i " <<k.b<< " je "<<k.umnozak()<<endl;
+	cout<< " kolicnik unesenih brojeva: " <<k.a<< " i " <<k.b<< " je "<<k.kolicnik()<<endl;
+	
+	
+	return 0;
+}
+	
+	return 0;
+}

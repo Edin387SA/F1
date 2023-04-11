@@ -1,0 +1,17 @@
+# include <iostream>
+# include <cmath>
+using namespace std;
+
+int main(){
+int a;
+cout << "unesi jedan dvocifreni broj" << endl;
+cin >> a;
+
+cout << "jedinica unesenog broja je: " << a%10 << "a desetica unesenog broja je: " << a/10 << endl;	
+cout << "obrnuto uneseni brojevi su: "<< a%10 << a/10<< endl;
+cout << "sabrane obje znamenke broja: " << (a%10)+(a/10)	<<endl;	
+	
+	
+	return 0;
+}
+---

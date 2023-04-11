@@ -1,0 +1,15 @@
+# include <iostream>
+using namespace std;
+
+int main(){
+int a;
+cout <<"unesi broj: "<< endl;
+cin >> a;
+
+if(a>=5){
+cout << "uneseni broj je: "<< a << endl;
+} else{
+	cout <<"uneseni broj je manji od broja 5! "<< endl;
+}
+	return 0;
+}
